@@ -15,7 +15,7 @@ from travay_fichye import kreye_metadata_fichye, anrejistre_fichye_sou_disk
 
 app = Flask('voxforge-kreyol')
 api = Api(app)
-cors = CORS(app, resources={r'/api/*': {'origins': 'https://voxforge-kreyol.nucklehead.vercel.app'}})
+cors = CORS(app, resources={r'/api/*': {'origins': 'https://voxforge-kreyol.vercel.app'}})
 
 configure_mongo(app)
 
